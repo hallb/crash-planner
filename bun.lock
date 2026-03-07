@@ -1,0 +1,24 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "crash-planner",
+      "devDependencies": {
+        "markdown-projects": "github:varunpandey0502/markdown-projects",
+      },
+    },
+  },
+  "overrides": {
+    "markdown-projects": "github:varunpandey0502/markdown-projects",
+  },
+  "packages": {
+    "commander": ["commander@14.0.3", "", {}, "sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw=="],
+
+    "markdown-projects": ["markdown-projects@github:varunpandey0502/markdown-projects#a6c0ab9", { "dependencies": { "commander": "^14.0.2", "yaml": "^2.8.2" }, "peerDependencies": { "typescript": "^5" }, "bin": { "mdp": "./src/cli.ts" } }, "varunpandey0502-markdown-projects-a6c0ab9", "sha512-Wxo5fF2MwNGuGv55L/Jd2CCK5pM+zR+Isk/rE1HEJKx+Thcr/p5uDApdJSNCGHY4sn3imqcmZAjMQQEnAgS4qg=="],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "yaml": ["yaml@2.8.2", "", { "bin": { "yaml": "bin.mjs" } }, "sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A=="],
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "crash-planner",
+  "version": "1.0.0",
+  "description": "Planning and milestone tracking for Bird Murmuration Simulator (crash)",
+  "private": true,
+  "scripts": {
+    "mdp": "./script/mdp"
+  },
+  "devDependencies": {
+    "markdown-projects": "github:varunpandey0502/markdown-projects"
+  },
+  "overrides": {
+    "markdown-projects": "github:varunpandey0502/markdown-projects"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

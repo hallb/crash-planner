@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Wrapper for mdp CLI. Ensures Bun is on PATH and project path is set.
+set -e
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+export PATH="${HOME}/.bun/bin:${PATH}"
+exec bunx mdp -p "$ROOT" "$@"
