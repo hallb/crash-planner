@@ -22,4 +22,4 @@ updatedAt: 2026-03-07T20:49:30.270Z
 
 ## Description
 
-Unit tests for Boids step logic; headless simulation test; NFR-014
+Unit tests for Boids step logic; headless simulation test; NFR-014. Include step-time benchmark asserting ≤10 ms at 100 agents (NFR-002) using pytest-benchmark.

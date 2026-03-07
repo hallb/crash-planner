@@ -32,7 +32,7 @@ None
 
 #### Plan
 
-1. Set up project structure per solution design (Python, Pygame, ModernGL, ImGui)
+1. Set up project structure per solution design (Python, Pygame, ModernGL, NumPy, SciPy)
 2. Implement Boids algorithm core (separation, alignment, cohesion)
 3. Create 2D rendering pipeline for agent positions
 4. Add main loop with fixed timestep for simulation
