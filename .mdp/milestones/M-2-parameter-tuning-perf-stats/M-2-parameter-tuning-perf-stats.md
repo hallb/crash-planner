@@ -61,6 +61,8 @@ M-1 (MVP Boids 2D)
 1. Adjust each parameter and confirm flock behaviour changes
 2. Verify FPS, step time, and agent count display are accurate
 3. Confirm live updates work without restart
+4. Set agent count to 10 and confirm agents are clearly visible and simulation runs without freeze (NFR-012, NFR-009)
+5. Set agent count to 500 and confirm flock shape is perceptible, UI remains responsive, and no hard freeze occurs (NFR-003, NFR-007, NFR-009, NFR-012)
 
 #### Success Criteria
 
