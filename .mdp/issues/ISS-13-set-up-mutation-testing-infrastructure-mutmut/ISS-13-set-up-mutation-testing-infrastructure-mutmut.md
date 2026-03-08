@@ -2,7 +2,7 @@
 id: ISS-13
 title: Set up mutation testing infrastructure (mutmut)
 type: chore
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T02:30:00.000Z
-updatedAt: 2026-03-08T02:30:00.000Z
+updatedAt: 2026-03-08T19:01:56.045Z
 ---
 
 ## Description

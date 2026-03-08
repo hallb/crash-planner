@@ -2,7 +2,7 @@
 id: ISS-11
 title: Add performance stats overlay
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -17,7 +17,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T02:05:00.000Z
-updatedAt: 2026-03-08T02:05:00.000Z
+updatedAt: 2026-03-08T19:01:55.782Z
 ---
 
 ## Description
