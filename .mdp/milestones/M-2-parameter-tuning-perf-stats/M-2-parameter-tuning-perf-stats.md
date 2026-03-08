@@ -1,15 +1,15 @@
 ---
 id: M-2
 title: Parameter tuning + perf stats
-status: Planning
+status: Completed
 priority: null
 labels: []
 startDate: null
 dueDate: null
 checklist: []
 log: []
-createdAt: "2026-03-07T00:00:00.000Z"
-updatedAt: "2026-03-07T00:00:00.000Z"
+createdAt: 2026-03-07T00:00:00.000Z
+updatedAt: 2026-03-08T19:39:23.510Z
 ---
 
 #### Milestone Identity
@@ -70,3 +70,38 @@ M-1 (MVP Boids 2D)
 ✅ Behaviour changes visible on parameter change
 ✅ FPS, step time, agent count display visible
 ✅ No restart required for parameter updates
+
+#### M-2 Closeout Evidence (2026-03-08)
+
+##### AI Gate Results
+
+- `./script/test`: PASS (63 passed)
+- `./script/cibuild`: PASS (ruff + format + mypy + tests + pip-audit)
+- Startup smoke test (`timeout 8s ./script/server`): PASS (expected timeout exit after successful startup)
+
+##### Mutation Testing Check
+
+- Ran scoped mutation testing:
+  - `./script/mutate --scope src/crash/data/config.py src/crash/simulation/engine.py src/crash/simulation/boids.py`
+- Result observed: 239 killed, 2 survived.
+- Survivors are tracked in `ISS-14` backlog per policy.
+
+##### Human Gate Summary
+
+- Parameter controls and metrics display verified in manual runs.
+- Agent-count boundary checks verified by user:
+  - 10 agents: clearly visible and stable
+  - 500 agents: flock remains perceptible; UI remains responsive
+- Final resize/controls bug regression verified fixed by user after display-size and resize handling correction.
+
+##### NFR Acceptance Audit (M-2 mapping)
+
+- **NFR-003 (agent range 10..500):** Satisfied (manual verification at 10 and 500)
+- **NFR-007 (UI responsiveness):** Satisfied (controls responsive under normal/high load in final verification)
+- **NFR-009 (graceful degradation):** Satisfied (no hard freeze in final manual checks)
+- **NFR-012 (visual clarity at scale):** Satisfied (10-agent clarity and 500-agent perceptibility confirmed)
+
+##### Deferred/Out-of-Scope at M-2 closeout
+
+- `ISS-7` moved out of M-2 as deferred follow-up backlog work.
+- `ISS-16` and `ISS-17` remain backlog by design.

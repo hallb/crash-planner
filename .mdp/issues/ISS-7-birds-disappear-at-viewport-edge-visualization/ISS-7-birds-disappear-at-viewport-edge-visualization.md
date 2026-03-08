@@ -6,7 +6,7 @@ status: Backlog
 priority: Medium
 labels: []
 assignee: null
-milestone: M-2
+milestone: null
 estimate: null
 spent: null
 dueDate: null
@@ -82,3 +82,7 @@ Post-fix runs showed improvement: bottom-edge clipping largely resolved; right-e
 
 - Occasional disappearance still observed on bottom edge in latest run, not consistently reproducible.
 - May need larger margin, or alternative approach (e.g. clamp positions for rendering only, or soft boundary).
+
+## Defer rationale
+
+This issue is deferred out of M-2 closeout. M-2 quality and usability goals for parameter tuning and performance stats were achieved, and the remaining ISS-7 behavior is intermittent and medium priority. Follow-up handling will continue as backlog work (or be assigned to a dedicated follow-up milestone if prioritized).

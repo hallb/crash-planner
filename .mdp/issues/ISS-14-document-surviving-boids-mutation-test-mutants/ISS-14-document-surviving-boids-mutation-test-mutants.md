@@ -27,6 +27,10 @@ After improving mutation coverage on `src/crash/simulation/boids.py` (2025-03), 
 
 Two mutants survive in `boids.py`. Run `./script/mutate --scope src/crash/simulation/boids.py` and `mutmut results` filtered for `crash.simulation.boids` and `survived` to identify specifics. These were not investigated further; this issue tracks them for backlog cleanup.
 
+## Latest verification
+
+Reconfirmed during M-2 closeout mutation check (2026-03-08): scoped mutation run still reports surviving boids mutants, so this issue remains open backlog by design.
+
 ## Action
 
 - [ ] Run mutmut show on survivor IDs to capture exact mutations

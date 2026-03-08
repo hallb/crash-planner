@@ -36,3 +36,9 @@ How we scope mutation testing to code touched by an issue:
 - **Transient patching:** The script backs up `pyproject.toml`, replaces `paths_to_mutate` and `also_copy` with scoped values, runs mutmut, then restores the original config. No permanent edits.
 - **Dynamic also_copy:** `also_copy` is computed from the scope: files in the same dir as scoped paths are listed individually; dirs with no scoped files are added as dirs (for package imports). No manual updates when changing scope.
 - **Policy:** Per `testing-policy.mdc`, mutation testing is scoped to code touched by the issue being completed.
+
+## M-2 closeout mutation check (2026-03-08)
+
+- Ran: `./script/mutate --scope src/crash/data/config.py src/crash/simulation/engine.py src/crash/simulation/boids.py`
+- Observed summary: 239 killed, 2 survived (plus no-test/irrelevant entries in non-covered paths from mutmut reporting output).
+- Reconciliation: surviving boids mutants continue to be tracked in ISS-14 backlog for follow-up hardening/equivalence documentation.
