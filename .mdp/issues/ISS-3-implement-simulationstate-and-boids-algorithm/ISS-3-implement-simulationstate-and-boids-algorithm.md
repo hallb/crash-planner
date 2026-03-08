@@ -2,7 +2,7 @@
 id: ISS-3
 title: Implement SimulationState and Boids algorithm
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null

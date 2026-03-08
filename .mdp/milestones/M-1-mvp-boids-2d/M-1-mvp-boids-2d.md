@@ -1,7 +1,7 @@
 ---
 id: M-1
 title: MVP Boids 2D
-status: Planning
+status: Done
 priority: null
 labels: []
 startDate: null

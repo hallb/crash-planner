@@ -2,7 +2,7 @@
 id: ISS-4
 title: Implement 2D renderer
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null

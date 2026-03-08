@@ -2,7 +2,7 @@
 id: ISS-5
 title: Implement application main loop
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null

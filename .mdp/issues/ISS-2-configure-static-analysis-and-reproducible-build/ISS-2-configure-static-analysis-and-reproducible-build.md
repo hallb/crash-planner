@@ -2,7 +2,7 @@
 id: ISS-2
 title: Configure static analysis and reproducible build
 type: chore
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null

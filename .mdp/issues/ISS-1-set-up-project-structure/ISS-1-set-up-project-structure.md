@@ -2,7 +2,7 @@
 id: ISS-1
 title: Set up project structure
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null

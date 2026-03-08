@@ -2,7 +2,7 @@
 id: ISS-6
 title: Add automated tests for Boids
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
