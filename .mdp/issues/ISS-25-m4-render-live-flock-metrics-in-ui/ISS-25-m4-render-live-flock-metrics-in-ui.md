@@ -2,7 +2,7 @@
 id: ISS-25
 title: "M4: Render live flock metrics in UI"
 type: task
-status: Backlog
+status: In Progress
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T22:55:45.292Z
-updatedAt: 2026-03-08T22:55:45.292Z
+updatedAt: 2026-03-09T03:39:03.767Z
 ---
 
 ## Description
