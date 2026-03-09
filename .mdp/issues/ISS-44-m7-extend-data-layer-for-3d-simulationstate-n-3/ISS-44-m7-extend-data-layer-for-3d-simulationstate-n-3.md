@@ -2,7 +2,7 @@
 id: ISS-44
 title: "M7: Extend data layer for 3D (SimulationState N×3 arrays, world_bounds depth, dimensions config)"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
