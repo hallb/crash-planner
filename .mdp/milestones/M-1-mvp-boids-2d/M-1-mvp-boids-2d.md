@@ -1,15 +1,15 @@
 ---
 id: M-1
 title: MVP Boids 2D
-status: Done
+status: Completed
 priority: null
 labels: []
 startDate: null
 dueDate: null
 checklist: []
 log: []
-createdAt: "2026-03-07T00:00:00.000Z"
-updatedAt: "2026-03-07T00:00:00.000Z"
+createdAt: 2026-03-07T00:00:00.000Z
+updatedAt: 2026-03-09T03:19:32.873Z
 ---
 
 #### Milestone Identity
