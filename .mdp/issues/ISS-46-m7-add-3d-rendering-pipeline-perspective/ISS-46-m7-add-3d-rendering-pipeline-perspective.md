@@ -23,3 +23,5 @@ updatedAt: 2026-03-09T01:40:36.937Z
 ## Description
 
 Replace orthographic projection with perspective projection when dimensions=3. Upload z-component of agent positions to GPU vertex buffer. Update vertex shader to accept and use z-coordinate. Keep orthographic path for 2D mode. No new agent geometry needed — instanced draw continues.
+
+Per FR-001 (system renders agents in 3D space per FR-027). Frame rate must remain ≥30 FPS at default agent count per NFR-001. Renderer must not contain simulation logic per NFR-013.

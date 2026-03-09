@@ -22,7 +22,7 @@ updatedAt: "2026-03-07T00:00:00.000Z"
 
 #### Goal
 
-The user toggles between 2D and 3D via the UI or config. 3D rendering includes camera controls. All available algorithms work in 3D; the protocol supports any algorithm in 3D. Switching dimensionality resets the simulation.
+The user toggles between 2D and 3D via the UI or config. All available algorithms work in 3D; the protocol supports any algorithm in 3D. Switching dimensionality resets the simulation.
 
 #### Dependencies
 
@@ -31,15 +31,14 @@ M-2 Parameter tuning + perf stats
 #### Plan
 
 1. Add 3D rendering pipeline (ModernGL/OpenGL)
-2. Implement 3D camera controls (orbit, pan, zoom)
-3. Adapt all available algorithms for 3D (z-axis, 3D neighbourhood)
-4. Add UI/config toggle for 2D vs 3D
-5. Reset simulation when switching dimensionality
-6. Add 3D-specific tests
+2. Adapt all available algorithms for 3D (z-axis, 3D neighbourhood)
+3. Add UI/config toggle for 2D vs 3D
+4. Reset simulation when switching dimensionality
+5. Add 3D-specific tests
 
 #### Outcome
 
-- 3D rendering with camera controls
+- 3D rendering pipeline (perspective projection)
 - All available algorithms work in 3D
 - 2D/3D toggle in UI and config
 - Simulation resets on dimensionality change
@@ -57,13 +56,13 @@ M-2 Parameter tuning + perf stats
 
 #### Human Verification (Human Gate)
 
-1. Verify 3D rendering and camera controls feel natural
+1. Verify 3D rendering looks correct in perspective
 2. Confirm all available algorithms look correct in 3D
 3. Verify dimensionality switch resets simulation correctly
 
 #### Success Criteria
 
-✅ 3D rendering with camera controls
+✅ 3D rendering pipeline active when dimensions=3
 ✅ All available algorithms work in 3D
 ✅ 2D/3D toggle in UI and config
 ✅ Simulation resets on dimensionality change

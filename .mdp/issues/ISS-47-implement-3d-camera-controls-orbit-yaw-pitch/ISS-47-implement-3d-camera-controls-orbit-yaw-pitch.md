@@ -1,12 +1,12 @@
 ---
 id: ISS-47
-title: "M7: Implement 3D camera controls (orbit: yaw/pitch around centroid, scroll to zoom)"
+title: "Implement 3D camera controls (orbit: yaw/pitch around centroid, scroll to zoom)"
 type: task
 status: Backlog
 priority: null
 labels: []
 assignee: null
-milestone: "null"
+milestone: M-10
 estimate: null
 spent: null
 dueDate: null
