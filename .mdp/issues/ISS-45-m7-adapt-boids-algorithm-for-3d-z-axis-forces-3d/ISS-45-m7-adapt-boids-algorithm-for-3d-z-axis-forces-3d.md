@@ -2,7 +2,7 @@
 id: ISS-45
 title: "M7: Adapt Boids algorithm for 3D (z-axis forces, 3D neighbourhood search)"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
