@@ -2,7 +2,7 @@
 id: ISS-76
 title: Telemetry shows 2D position/velocity when switched to 3D with agent selected
 type: bug
-status: Backlog
+status: Done
 priority: Medium
 labels: []
 assignee: null
@@ -19,7 +19,7 @@ log:
     author: cli
     body: "Bug reported: Telemetry persists after 2D→3D switch; shows 2D position/velocity; selected agent highlight may be lost"
 createdAt: 2026-03-09T17:42:34.459Z
-updatedAt: 2026-03-09T20:08:05.387Z
+updatedAt: 2026-03-09T20:24:16.101Z
 ---
 
 ## Origin

@@ -2,7 +2,7 @@
 id: ISS-75
 title: Click-to-select does not work in 3D mode
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-09T13:24:49.579Z
-updatedAt: 2026-03-09T20:08:05.275Z
+updatedAt: 2026-03-09T20:24:15.986Z
 ---
 
 ## Description
