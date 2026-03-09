@@ -2,7 +2,7 @@
 id: ISS-40
 title: "M6: Add algorithm selector UI and Flock2 parameter panel"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-09T01:35:52.557Z
-updatedAt: 2026-03-09T01:35:52.557Z
+updatedAt: 2026-03-09T15:50:48.158Z
 ---
 
 ## Description
