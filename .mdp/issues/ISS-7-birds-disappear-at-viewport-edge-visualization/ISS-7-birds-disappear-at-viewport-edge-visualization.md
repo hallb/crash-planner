@@ -2,7 +2,7 @@
 id: ISS-7
 title: Birds disappear at viewport edge (visualization)
 type: bug
-status: Backlog
+status: Done
 priority: Medium
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T01:24:16.581Z
-updatedAt: 2026-03-09T03:30:09.088Z
+updatedAt: 2026-03-09T20:21:38.340Z
 ---
 
 ## Origin
