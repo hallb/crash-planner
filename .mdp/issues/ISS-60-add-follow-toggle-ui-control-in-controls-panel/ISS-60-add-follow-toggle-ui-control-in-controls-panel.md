@@ -2,7 +2,7 @@
 id: ISS-60
 title: Add follow toggle UI control in controls panel
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,5 +16,5 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-09T03:28:08.685Z
-updatedAt: 2026-03-09T03:28:08.685Z
+updatedAt: 2026-03-09T20:19:31.035Z
 ---
