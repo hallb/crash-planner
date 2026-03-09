@@ -22,17 +22,17 @@ updatedAt: "2026-03-07T00:00:00.000Z"
 
 #### Goal
 
-The user toggles between 2D and 3D via the UI or config. 3D rendering includes camera controls. Both Boids and Flock2 work in 3D. Switching dimensionality resets the simulation.
+The user toggles between 2D and 3D via the UI or config. 3D rendering includes camera controls. All available algorithms work in 3D; the protocol supports any algorithm in 3D. Switching dimensionality resets the simulation.
 
 #### Dependencies
 
-M-6 Flock2 + algorithm switching
+M-2 Parameter tuning + perf stats
 
 #### Plan
 
 1. Add 3D rendering pipeline (ModernGL/OpenGL)
 2. Implement 3D camera controls (orbit, pan, zoom)
-3. Adapt Boids and Flock2 for 3D (z-axis, 3D neighbourhood)
+3. Adapt all available algorithms for 3D (z-axis, 3D neighbourhood)
 4. Add UI/config toggle for 2D vs 3D
 5. Reset simulation when switching dimensionality
 6. Add 3D-specific tests
@@ -40,7 +40,7 @@ M-6 Flock2 + algorithm switching
 #### Outcome
 
 - 3D rendering with camera controls
-- Both algorithms work in 3D
+- All available algorithms work in 3D
 - 2D/3D toggle in UI and config
 - Simulation resets on dimensionality change
 
@@ -48,7 +48,7 @@ M-6 Flock2 + algorithm switching
 
 1. Run tests for 3D rendering
 2. Run tests for 2D/3D toggle
-3. Verify both algorithms work in 3D
+3. Verify all available algorithms work in 3D
 4. Run full test suite
 
 **Expected**:
@@ -58,13 +58,13 @@ M-6 Flock2 + algorithm switching
 #### Human Verification (Human Gate)
 
 1. Verify 3D rendering and camera controls feel natural
-2. Confirm both Boids and Flock2 look correct in 3D
+2. Confirm all available algorithms look correct in 3D
 3. Verify dimensionality switch resets simulation correctly
 
 #### Success Criteria
 
 ✅ 3D rendering with camera controls
-✅ Both algorithms work in 3D
+✅ All available algorithms work in 3D
 ✅ 2D/3D toggle in UI and config
 ✅ Simulation resets on dimensionality change
 ✅ Tests pass

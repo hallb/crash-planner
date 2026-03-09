@@ -23,19 +23,18 @@ updatedAt: "2026-03-07T00:00:00.000Z"
 
 #### Goal
 
-The user selects between Boids and Flock2 via the UI. Flock2 implementation uses orientation-based model with topological neighbourhood. All existing features (parameters, config, metrics, agent selection, follow, trail) work with both algorithms. Algorithm extensibility interface is in place.
+The user selects between Boids and Flock2 via the UI. Flock2 implementation uses orientation-based model with topological neighbourhood. All existing features work with both algorithms. Algorithm extensibility interface is in place.
 
 #### Dependencies
 
-M-3 Config persistence + pause
-M-5 Agent follow + trajectory trail
+M-2 Parameter tuning + perf stats
 
 #### Plan
 
 1. Implement Flock2 algorithm with orientation-based model and topological neighbourhood
 2. Add algorithm extensibility interface (protocol/abstract base)
 3. Add UI control to switch between Boids and Flock2
-4. Ensure parameter tuning, config, metrics, agent selection, follow, and trail work with both algorithms
+4. Ensure parameter tuning and all other existing features work with both algorithms
 5. Add tests for Flock2 behaviour and algorithm switching
 
 #### Outcome
@@ -60,7 +59,7 @@ M-5 Agent follow + trajectory trail
 
 1. Verify Flock2 flock behaviour looks correct (orientation-based, topological)
 2. Confirm algorithm switch works smoothly
-3. Verify all features (params, config, metrics, selection, follow, trail) work with both algorithms
+3. Verify all existing features work with both algorithms
 
 #### Success Criteria
 
