@@ -23,11 +23,12 @@ updatedAt: "2026-03-07T00:00:00.000Z"
 
 #### Goal
 
-The user selects between Boids and Flock2 via the UI. Flock2 implementation uses orientation-based model with topological neighbourhood. All existing features work with both algorithms. Algorithm extensibility interface is in place.
+The user selects between Boids and Flock2 via the UI. Flock2 implementation uses orientation-based model with topological neighbourhood, working in both 2D (angle-only, pitch=0) and 3D (quaternion orientation) modes. All existing features work with both algorithms in both dimensions. Algorithm extensibility interface is in place.
 
 #### Dependencies
 
 M-2 Parameter tuning + perf stats
+M-7 3D mode
 
 #### Plan
 
@@ -63,8 +64,9 @@ M-2 Parameter tuning + perf stats
 
 #### Success Criteria
 
-✅ Flock2 algorithm implemented
+✅ Flock2 algorithm implemented — orientation-based, topological neighbourhood
+✅ Flock2 works in both 2D mode (angle-only) and 3D mode (quaternion)
 ✅ Algorithm extensibility interface in place
 ✅ UI switch between Boids and Flock2
-✅ All existing features work with both algorithms
-✅ Tests pass
+✅ All existing features work with both algorithms in both dimensions
+✅ Tests cover both 2D and 3D Flock2 paths; mutation gate passes
