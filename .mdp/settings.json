@@ -29,7 +29,8 @@
       { "name": "bug", "description": "Something broken" },
       { "name": "feature", "description": "New functionality" },
       { "name": "chore", "description": "Maintenance, refactoring" },
-      { "name": "spike", "description": "Research or investigation" }
+      { "name": "spike", "description": "Research or investigation" },
+      { "name": "retro", "description": "Retrospective observation promoted to an actionable improvement" }
     ]
   },
   "milestones": {
