@@ -2,7 +2,7 @@
 id: ISS-38
 title: "M6: Implement Flock2Algorithm — orientation model, topological neighbourhood, 2D and 3D modes"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-09T01:35:39.404Z
-updatedAt: 2026-03-09T01:35:39.404Z
+updatedAt: 2026-03-09T15:45:40.371Z
 ---
 
 ## Description
