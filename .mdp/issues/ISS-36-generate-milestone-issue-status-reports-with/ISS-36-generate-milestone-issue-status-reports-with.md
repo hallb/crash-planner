@@ -2,7 +2,7 @@
 id: ISS-36
 title: Generate milestone/issue status reports with Mermaid Gantt charts
 type: feature
-status: Backlog
+status: Done
 priority: null
 labels:
   - documentation
@@ -17,7 +17,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-09T01:15:03.259Z
-updatedAt: 2026-03-09T01:15:03.259Z
+updatedAt: 2026-03-09T03:17:50.427Z
 ---
 
 ## Motivation
