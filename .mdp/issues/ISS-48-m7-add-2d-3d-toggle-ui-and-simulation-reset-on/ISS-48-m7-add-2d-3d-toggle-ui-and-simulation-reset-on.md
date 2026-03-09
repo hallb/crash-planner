@@ -2,7 +2,7 @@
 id: ISS-48
 title: "M7: Add 2D/3D toggle UI and simulation reset on dimensionality change"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
