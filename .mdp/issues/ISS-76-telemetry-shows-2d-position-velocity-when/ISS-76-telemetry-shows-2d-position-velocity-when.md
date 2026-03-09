@@ -6,7 +6,7 @@ status: Backlog
 priority: Medium
 labels: []
 assignee: null
-milestone: null
+milestone: M-5
 estimate: null
 spent: null
 dueDate: null
@@ -19,7 +19,7 @@ log:
     author: cli
     body: "Bug reported: Telemetry persists after 2D→3D switch; shows 2D position/velocity; selected agent highlight may be lost"
 createdAt: 2026-03-09T17:42:34.459Z
-updatedAt: 2026-03-09T17:42:40.742Z
+updatedAt: 2026-03-09T20:08:05.387Z
 ---
 
 ## Origin
