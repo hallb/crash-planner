@@ -1,12 +1,12 @@
 ---
 id: ISS-51
-title: "Enhance 3D visual depth cues (richer bird geometry, bounding box, size attenuation)"
+title: Enhance 3D visual depth cues (richer bird geometry, bounding box, size attenuation)
 type: task
 status: Backlog
 priority: null
 labels: []
 assignee: null
-milestone: null
+milestone: M-10
 estimate: null
 spent: null
 dueDate: null
@@ -17,7 +17,7 @@ relatedTo:
 checklist: []
 log: []
 createdAt: 2026-03-09T00:00:00.000Z
-updatedAt: 2026-03-09T00:00:00.000Z
+updatedAt: 2026-03-09T03:36:03.707Z
 ---
 
 ## Description
