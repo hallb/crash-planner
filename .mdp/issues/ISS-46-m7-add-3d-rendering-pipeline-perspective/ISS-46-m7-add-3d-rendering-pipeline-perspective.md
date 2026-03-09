@@ -2,7 +2,7 @@
 id: ISS-46
 title: "M7: Add 3D rendering pipeline (perspective projection, z-component in vertex data)"
 type: task
-status: Backlog
+status: In Progress
 priority: null
 labels: []
 assignee: null
