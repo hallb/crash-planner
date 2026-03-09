@@ -2,7 +2,7 @@
 id: ISS-46
 title: "M7: Add 3D rendering pipeline (perspective projection, z-component in vertex data)"
 type: task
-status: In Progress
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -15,7 +15,8 @@ blockedBy:
 parent: null
 relatedTo: []
 checklist: []
-log: []
+log:
+  - "2026-03-09: Added 3D depth cues (atmospheric fog): v_depth varying + u_depth_fade uniform; birds far from camera fade toward background. Shader-only; 2D unchanged. See 04-front-end-design.md."
 createdAt: 2026-03-09T01:36:10.081Z
 updatedAt: 2026-03-09T01:40:36.937Z
 ---
