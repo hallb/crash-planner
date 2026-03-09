@@ -2,7 +2,7 @@
 id: ISS-39
 title: "M6: Add algorithm registry and wire engine to use it"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-09T01:35:39.458Z
-updatedAt: 2026-03-09T01:35:39.458Z
+updatedAt: 2026-03-09T15:46:48.816Z
 ---
 
 ## Description
