@@ -2,7 +2,7 @@
 id: ISS-20
 title: "M3: Wire config load into app startup"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T22:55:36.760Z
-updatedAt: 2026-03-08T22:55:36.760Z
+updatedAt: 2026-03-09T00:33:23.528Z
 ---
 
 ## Description

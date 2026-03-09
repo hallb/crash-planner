@@ -2,7 +2,7 @@
 id: ISS-21
 title: "M3: Add pause/resume controls and engine command handling"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T22:55:36.856Z
-updatedAt: 2026-03-08T22:55:36.856Z
+updatedAt: 2026-03-09T00:33:23.610Z
 ---
 
 ## Description

@@ -2,7 +2,7 @@
 id: ISS-19
 title: "M3: Implement config save/load in data layer"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T22:55:36.659Z
-updatedAt: 2026-03-08T22:55:36.659Z
+updatedAt: 2026-03-09T00:33:23.446Z
 ---
 
 ## Description

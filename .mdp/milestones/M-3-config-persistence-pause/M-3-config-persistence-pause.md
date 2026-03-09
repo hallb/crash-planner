@@ -1,15 +1,15 @@
 ---
 id: M-3
 title: Config persistence + pause
-status: Planning
+status: Completed
 priority: null
 labels: []
 startDate: null
 dueDate: null
 checklist: []
 log: []
-createdAt: "2026-03-07T00:00:00.000Z"
-updatedAt: "2026-03-07T00:00:00.000Z"
+createdAt: 2026-03-07T00:00:00.000Z
+updatedAt: 2026-03-09T01:20:00.338Z
 ---
 
 #### Milestone Identity
