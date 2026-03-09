@@ -2,7 +2,7 @@
 id: ISS-26
 title: "M4: Implement agent selection via click and ID input"
 type: task
-status: Backlog
+status: In Progress
 priority: null
 labels: []
 assignee: null
@@ -16,7 +16,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T22:55:45.393Z
-updatedAt: 2026-03-08T22:55:45.393Z
+updatedAt: 2026-03-09T03:39:50.273Z
 ---
 
 ## Description
