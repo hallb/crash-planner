@@ -1,15 +1,15 @@
 ---
 id: M-6
 title: Flock2 + algorithm switching
-status: Planning
+status: Completed
 priority: null
 labels: []
 startDate: null
 dueDate: null
 checklist: []
 log: []
-createdAt: "2026-03-07T00:00:00.000Z"
-updatedAt: "2026-03-07T00:00:00.000Z"
+createdAt: 2026-03-07T00:00:00.000Z
+updatedAt: 2026-03-09T18:00:50.274Z
 ---
 
 #### Milestone Identity
