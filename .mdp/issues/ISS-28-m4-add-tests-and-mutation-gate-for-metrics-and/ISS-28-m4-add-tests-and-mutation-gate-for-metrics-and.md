@@ -2,7 +2,7 @@
 id: ISS-28
 title: "M4: Add tests and mutation gate for metrics and selection"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null

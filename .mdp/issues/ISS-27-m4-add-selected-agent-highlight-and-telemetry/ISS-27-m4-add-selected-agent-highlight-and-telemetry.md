@@ -2,7 +2,7 @@
 id: ISS-27
 title: "M4: Add selected-agent highlight and telemetry panel"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
