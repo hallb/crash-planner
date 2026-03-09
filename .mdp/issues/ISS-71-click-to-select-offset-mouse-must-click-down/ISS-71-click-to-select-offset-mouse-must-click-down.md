@@ -2,7 +2,7 @@
 id: ISS-71
 title: "Click-to-select offset: mouse must click down-right of target bird"
 type: bug
-status: Backlog
+status: Done
 priority: High
 labels: []
 assignee: null
@@ -19,7 +19,7 @@ log:
     author: cli
     body: "Bug reported during M-4 Human Gate: click offset down-right of target; hypothesis: metrics bar or viewport mapping"
 createdAt: 2026-03-09T12:56:55.389Z
-updatedAt: 2026-03-09T12:57:10.347Z
+updatedAt: 2026-03-09T13:23:27.391Z
 ---
 
 ## Origin
