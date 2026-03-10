@@ -2,7 +2,7 @@
 id: ISS-31
 title: "M9: Implement animated GIF export"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -10,13 +10,15 @@ milestone: M-9
 estimate: null
 spent: null
 dueDate: null
-blockedBy: [ISS-81, ISS-82]
+blockedBy:
+  - ISS-81
+  - ISS-82
 parent: null
 relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T22:55:54.455Z
-updatedAt: 2026-03-10T01:00:00.000Z
+updatedAt: 2026-03-10T02:12:44.400Z
 ---
 
 ## Description
