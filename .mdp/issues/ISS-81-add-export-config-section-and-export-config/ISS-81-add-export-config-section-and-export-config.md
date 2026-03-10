@@ -2,7 +2,7 @@
 id: ISS-81
 title: "M9: Add [export] config section and export config data model"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -12,11 +12,14 @@ spent: null
 dueDate: null
 blockedBy: []
 parent: null
-relatedTo: [ISS-29, ISS-30, ISS-31]
+relatedTo:
+  - ISS-29
+  - ISS-30
+  - ISS-31
 checklist: []
 log: []
-createdAt: "2026-03-10T01:00:00.000Z"
-updatedAt: "2026-03-10T01:00:00.000Z"
+createdAt: 2026-03-10T01:00:00.000Z
+updatedAt: 2026-03-10T01:22:58.932Z
 ---
 
 ## Description
