@@ -2,7 +2,7 @@
 id: ISS-78
 title: Crash when switching to 3D after selecting bird with trail active
 type: bug
-status: Backlog
+status: Done
 priority: Medium
 labels: []
 assignee: null
@@ -21,8 +21,11 @@ log:
   - timestamp: 2026-03-09T21:26:50.321Z
     author: cli
     body: "Bug reported: 2D trail active -> switch to 3D crashes with ValueError at np.array(trail_deque, dtype=np.float64)."
+  - timestamp: 2026-03-10T18:49:00.000Z
+    author: cli
+    body: "Verified resolved: main.py _update_follow_and_trail clears trail_deque and trail_buffer when len(trail_deque[-1]) != len(pos), so 2D->3D (or 3D->2D) never leaves inhomogeneous points for np.array. Marked Done."
 createdAt: 2026-03-09T21:26:15.087Z
-updatedAt: 2026-03-09T21:26:50.321Z
+updatedAt: 2026-03-10T18:49:29.262Z
 ---
 
 ## Origin
