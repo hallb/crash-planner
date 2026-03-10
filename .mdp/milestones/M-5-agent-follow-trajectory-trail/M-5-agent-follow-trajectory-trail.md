@@ -1,15 +1,15 @@
 ---
 id: M-5
 title: Agent follow + trajectory trail
-status: Planning
+status: Completed
 priority: null
 labels: []
 startDate: null
 dueDate: null
 checklist: []
 log: []
-createdAt: "2026-03-07T00:00:00.000Z"
-updatedAt: "2026-03-07T00:00:00.000Z"
+createdAt: 2026-03-07T00:00:00.000Z
+updatedAt: 2026-03-09T23:59:06.026Z
 ---
 
 #### Milestone Identity
