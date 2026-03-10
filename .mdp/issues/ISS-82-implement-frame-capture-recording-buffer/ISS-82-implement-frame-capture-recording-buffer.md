@@ -2,7 +2,7 @@
 id: ISS-82
 title: "M9: Implement frame capture / recording buffer"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -10,13 +10,16 @@ milestone: M-9
 estimate: null
 spent: null
 dueDate: null
-blockedBy: [ISS-81]
+blockedBy:
+  - ISS-81
 parent: null
-relatedTo: [ISS-30, ISS-31]
+relatedTo:
+  - ISS-30
+  - ISS-31
 checklist: []
 log: []
-createdAt: "2026-03-10T01:00:00.000Z"
-updatedAt: "2026-03-10T01:00:00.000Z"
+createdAt: 2026-03-10T01:00:00.000Z
+updatedAt: 2026-03-10T01:34:57.997Z
 ---
 
 ## Description
