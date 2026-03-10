@@ -2,7 +2,7 @@
 id: ISS-32
 title: "M9: Add export controls and UX feedback"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -10,13 +10,16 @@ milestone: M-9
 estimate: null
 spent: null
 dueDate: null
-blockedBy: [ISS-29, ISS-30, ISS-31]
+blockedBy:
+  - ISS-29
+  - ISS-30
+  - ISS-31
 parent: null
 relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T22:55:54.584Z
-updatedAt: 2026-03-10T01:00:00.000Z
+updatedAt: 2026-03-10T02:18:09.775Z
 ---
 
 ## Description
