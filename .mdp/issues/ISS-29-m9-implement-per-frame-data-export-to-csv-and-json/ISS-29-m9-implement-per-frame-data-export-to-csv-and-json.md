@@ -2,7 +2,7 @@
 id: ISS-29
 title: "M9: Implement per-frame data export to CSV and JSON"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -10,13 +10,14 @@ milestone: M-9
 estimate: null
 spent: null
 dueDate: null
-blockedBy: [ISS-81]
+blockedBy:
+  - ISS-81
 parent: null
 relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-08T22:55:54.253Z
-updatedAt: 2026-03-10T01:00:00.000Z
+updatedAt: 2026-03-10T01:38:16.750Z
 ---
 
 ## Description
