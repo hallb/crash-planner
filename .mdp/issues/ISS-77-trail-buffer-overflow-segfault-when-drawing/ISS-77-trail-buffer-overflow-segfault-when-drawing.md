@@ -2,7 +2,7 @@
 id: ISS-77
 title: Trail buffer overflow — segfault when drawing trajectory trail
 type: bug
-status: Backlog
+status: Done
 priority: Medium
 labels: []
 assignee: null
@@ -24,8 +24,11 @@ log:
   - timestamp: 2026-03-09T20:28:01.875Z
     author: cli
     body: "Fix applied: Clamp n_pts = min(trail.shape[0], TRAIL_MAX_LEN), use trail[-n_pts:], write and render n_pts only (renderer_2d.py). Pending user verification."
+  - timestamp: 2026-03-10T18:48:00.000Z
+    author: cli
+    body: "Verified resolved: main.py caps trail to TRAIL_MAX_LEN before trail_buffer (defence in depth); renderer_2d.py clamps n_pts/n_verts and write size. No crash on trail draw. Marked Done."
 createdAt: 2026-03-09T20:27:28.937Z
-updatedAt: 2026-03-09T20:28:01.875Z
+updatedAt: 2026-03-10T18:48:04.000Z
 ---
 
 ## Origin
