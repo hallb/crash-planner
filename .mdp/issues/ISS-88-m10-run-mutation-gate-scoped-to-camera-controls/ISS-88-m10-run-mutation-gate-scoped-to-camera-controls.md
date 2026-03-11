@@ -2,7 +2,7 @@
 id: ISS-88
 title: "M10: Run mutation gate scoped to camera controls and view-state code"
 type: task
-status: Backlog
+status: In Progress
 priority: null
 labels: []
 assignee: null
@@ -17,7 +17,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-11T18:20:51.825Z
-updatedAt: 2026-03-11T18:20:56.985Z
+updatedAt: 2026-03-11T18:50:00.160Z
 ---
 
 ## Description
