@@ -2,7 +2,7 @@
 id: ISS-88
 title: "M10: Run mutation gate scoped to camera controls and view-state code"
 type: task
-status: In Progress
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -41,7 +41,7 @@ log:
       crash.data.config_io.* survivors are pre-existing (not introduced in M-10)
       and are outside the M-10 mutation scope (state.py, renderer_2d.py, main.py).
 createdAt: 2026-03-11T18:20:51.825Z
-updatedAt: 2026-03-11T18:53:47.898Z
+updatedAt: 2026-03-11T18:53:55.220Z
 ---
 
 ## Description
