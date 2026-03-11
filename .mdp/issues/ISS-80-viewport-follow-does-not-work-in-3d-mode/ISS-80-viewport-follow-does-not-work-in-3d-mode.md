@@ -10,16 +10,22 @@ milestone: M-10
 estimate: null
 spent: null
 dueDate: null
-blockedBy: []
+blockedBy:
+  - ISS-52
+  - ISS-55
 parent: null
-relatedTo: [ISS-58]
+relatedTo:
+  - ISS-58
 checklist: []
 log:
-  - timestamp: "2026-03-09T22:00:00.000Z"
+  - timestamp: 2026-03-09T22:00:00.000Z
     author: human-gate
     body: "Human Gate (M-5): Follow toggle works in 2D only; does not work at all in 3D."
-createdAt: "2026-03-09T22:00:00.000Z"
-updatedAt: "2026-03-09T22:00:00.000Z"
+  - timestamp: 2026-03-11T18:20:24.076Z
+    author: M-10-review
+    body: "Added blockedBy ISS-52 and ISS-55 during M-10 issue review: 3D follow requires orbit camera state (ISS-52) and view matrix wiring (ISS-55) to function."
+createdAt: 2026-03-09T22:00:00.000Z
+updatedAt: 2026-03-11T18:20:24.076Z
 ---
 
 ## Origin

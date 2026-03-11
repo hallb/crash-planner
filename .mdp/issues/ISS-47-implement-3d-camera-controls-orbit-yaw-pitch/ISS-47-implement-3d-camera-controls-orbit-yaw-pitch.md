@@ -2,7 +2,7 @@
 id: ISS-47
 title: "Implement 3D camera controls (orbit: yaw/pitch around centroid, scroll to zoom)"
 type: task
-status: Backlog
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -15,9 +15,12 @@ blockedBy:
 parent: null
 relatedTo: []
 checklist: []
-log: []
+log:
+  - timestamp: 2026-03-11T18:19:21.228Z
+    author: M-10-review
+    body: "Cancelled: superseded by ISS-52 through ISS-56, which break this issue into discrete tasks (ViewState extension, mouse orbit, scroll zoom, view matrix update, tests)."
 createdAt: 2026-03-09T01:36:10.132Z
-updatedAt: 2026-03-09T01:42:06.647Z
+updatedAt: 2026-03-11T18:19:21.228Z
 ---
 
 ## Description

@@ -6,7 +6,7 @@ status: Backlog
 priority: null
 labels: []
 assignee: null
-milestone: M-10
+milestone: null
 estimate: null
 spent: null
 dueDate: null
@@ -15,9 +15,12 @@ parent: null
 relatedTo:
   - ISS-46
 checklist: []
-log: []
+log:
+  - timestamp: 2026-03-11T18:19:24.104Z
+    author: M-10-review
+    body: "Moved out of M-10: visual depth cue enhancements (richer geometry, bounding box, size attenuation) are orthogonal to camera controls. The orbit camera candidate listed here is already covered by ISS-52–55. This issue belongs in a separate visual-polish scope."
 createdAt: 2026-03-09T00:00:00.000Z
-updatedAt: 2026-03-09T03:36:03.707Z
+updatedAt: 2026-03-11T18:19:24.104Z
 ---
 
 ## Description

@@ -6,20 +6,24 @@ status: Backlog
 priority: Medium
 labels: []
 assignee: null
-milestone: M-10
+milestone: null
 estimate: null
 spent: null
 dueDate: null
 blockedBy: []
 parent: null
-relatedTo: [ISS-58]
+relatedTo:
+  - ISS-58
 checklist: []
 log:
-  - timestamp: "2026-03-09T22:00:00.000Z"
+  - timestamp: 2026-03-09T22:00:00.000Z
     author: human-gate
     body: "Human Gate (M-5): Current behaviour fixes bird in centre of viewport. Intent was centre-third dead zone — camera does not move until bird reaches edge of centre third, reducing camera jitter."
-createdAt: "2026-03-09T22:00:00.000Z"
-updatedAt: "2026-03-09T22:00:00.000Z"
+  - timestamp: 2026-03-11T18:19:21.377Z
+    author: M-10-review
+    body: "Moved out of M-10: this is a 2D follow UX bug (centre-third dead zone), unrelated to 3D camera controls. Should be addressed in a dedicated follow-improvement or bug-fix scope."
+createdAt: 2026-03-09T22:00:00.000Z
+updatedAt: 2026-03-11T18:19:21.377Z
 ---
 
 ## Origin
