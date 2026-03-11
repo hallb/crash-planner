@@ -2,7 +2,7 @@
 id: ISS-52
 title: Extend ViewState with orbit camera state (yaw, pitch, zoom radius)
 type: task
-status: In Progress
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -19,7 +19,7 @@ log:
     author: M-10-review
     body: "Enriched: added description, technical approach, and acceptance criteria during M-10 issue review."
 createdAt: 2026-03-09T03:28:05.844Z
-updatedAt: 2026-03-11T18:28:01.770Z
+updatedAt: 2026-03-11T18:28:50.183Z
 ---
 
 ## Description
