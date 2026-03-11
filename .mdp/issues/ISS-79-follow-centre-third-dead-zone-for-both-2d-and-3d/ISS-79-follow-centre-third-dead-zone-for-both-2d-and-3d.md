@@ -22,8 +22,11 @@ log:
   - timestamp: 2026-03-11T18:19:21.377Z
     author: M-10-review
     body: "Moved out of M-10: this is a 2D follow UX bug (centre-third dead zone), unrelated to 3D camera controls. Should be addressed in a dedicated follow-improvement or bug-fix scope."
+  - timestamp: 2026-03-11T19:21:57.126Z
+    author: human-gate
+    body: "M-10 Human Gate: 3D follow has same pin-to-centre issue as 2D. Scope expanded to cover both modes. Priority: Medium (deferred to a follow-improvement milestone)."
 createdAt: 2026-03-09T22:00:00.000Z
-updatedAt: 2026-03-11T19:21:52.313Z
+updatedAt: 2026-03-11T19:21:57.126Z
 ---
 
 ## Origin
