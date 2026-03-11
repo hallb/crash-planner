@@ -15,9 +15,33 @@ blockedBy:
 parent: null
 relatedTo: []
 checklist: []
-log: []
+log:
+  - timestamp: 2026-03-11T18:53:47.898Z
+    author: M-10-mutmut
+    body: |-
+      Mutation gate results (scope: state.py, renderer_2d.py, main.py):
+
+      ## Survived — Equivalent Mutants (justified, not killed)
+
+      ### mutmut_34 — intermediate assignment overwritten
+      `view_state.trail_buffer = None` (in dim-change clear block) → `""`.
+      Observable behavior unchanged: the line is immediately overwritten by
+      `view_state.trail_buffer = arr` unconditionally below. Dead intermediate write.
+
+      ### mutmut_38, mutmut_40 — numpy dtype inference
+      `np.array(trail_deque, dtype=np.float64)` → `dtype=None` / no-kwarg.
+      Numpy infers float64 from Python float lists — identical runtime dtype. Equivalent.
+
+      ### mutmut_41, mutmut_42, mutmut_43, mutmut_44 — dead trail cap code
+      `if arr.shape[0] > TRAIL_MAX_LEN: arr = arr[-TRAIL_MAX_LEN:]`
+      The deque is constructed with `maxlen=TRAIL_MAX_LEN`, so `arr.shape[0]` ≤ TRAIL_MAX_LEN
+      is invariant. This branch can never execute. All four mutations on this block are equivalent.
+
+      ## config_io survivors — pre-existing, outside M-10 scope
+      crash.data.config_io.* survivors are pre-existing (not introduced in M-10)
+      and are outside the M-10 mutation scope (state.py, renderer_2d.py, main.py).
 createdAt: 2026-03-11T18:20:51.825Z
-updatedAt: 2026-03-11T18:50:00.160Z
+updatedAt: 2026-03-11T18:53:47.898Z
 ---
 
 ## Description
