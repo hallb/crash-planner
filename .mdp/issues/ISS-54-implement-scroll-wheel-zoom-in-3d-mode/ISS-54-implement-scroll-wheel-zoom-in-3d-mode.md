@@ -2,7 +2,7 @@
 id: ISS-54
 title: Implement scroll-wheel zoom in 3D mode
 type: task
-status: In Progress
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -20,7 +20,7 @@ log:
     author: M-10-review
     body: "Enriched: added description, acceptance criteria, and blockedBy ISS-52 during M-10 issue review."
 createdAt: 2026-03-09T03:28:06.041Z
-updatedAt: 2026-03-11T18:30:09.735Z
+updatedAt: 2026-03-11T18:43:30.571Z
 ---
 
 ## Description
