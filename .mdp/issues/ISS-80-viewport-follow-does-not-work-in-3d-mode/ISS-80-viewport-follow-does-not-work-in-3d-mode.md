@@ -2,7 +2,7 @@
 id: ISS-80
 title: Viewport follow does not work in 3D mode
 type: bug
-status: Backlog
+status: In Progress
 priority: Medium
 labels: []
 assignee: null
@@ -25,7 +25,7 @@ log:
     author: M-10-review
     body: "Added blockedBy ISS-52 and ISS-55 during M-10 issue review: 3D follow requires orbit camera state (ISS-52) and view matrix wiring (ISS-55) to function."
 createdAt: 2026-03-09T22:00:00.000Z
-updatedAt: 2026-03-11T18:20:24.076Z
+updatedAt: 2026-03-11T18:43:39.487Z
 ---
 
 ## Origin
