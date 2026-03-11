@@ -2,7 +2,7 @@
 id: ISS-53
 title: Implement mouse drag → yaw/pitch orbit (3D mode only, mouse events in controls)
 type: task
-status: Backlog
+status: In Progress
 priority: null
 labels: []
 assignee: null
@@ -20,7 +20,7 @@ log:
     author: M-10-review
     body: "Enriched: added description, acceptance criteria, and blockedBy ISS-52 during M-10 issue review."
 createdAt: 2026-03-09T03:28:05.945Z
-updatedAt: 2026-03-11T18:19:51.842Z
+updatedAt: 2026-03-11T18:30:09.631Z
 ---
 
 ## Description

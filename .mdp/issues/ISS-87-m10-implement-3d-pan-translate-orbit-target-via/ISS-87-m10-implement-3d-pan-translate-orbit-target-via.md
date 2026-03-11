@@ -2,7 +2,7 @@
 id: ISS-87
 title: "M10: Implement 3D pan (translate orbit target via middle-mouse or shift+drag)"
 type: task
-status: Backlog
+status: In Progress
 priority: null
 labels: []
 assignee: null
@@ -17,7 +17,7 @@ relatedTo: []
 checklist: []
 log: []
 createdAt: 2026-03-11T18:20:43.878Z
-updatedAt: 2026-03-11T18:20:43.878Z
+updatedAt: 2026-03-11T18:30:09.836Z
 ---
 
 ## Description
