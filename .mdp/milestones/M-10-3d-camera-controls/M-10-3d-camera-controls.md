@@ -1,15 +1,15 @@
 ---
 id: M-10
 title: 3D camera controls
-status: Planning
+status: Active
 priority: null
 labels: []
 startDate: null
 dueDate: null
 checklist: []
 log: []
-createdAt: "2026-03-08T00:00:00.000Z"
-updatedAt: "2026-03-08T00:00:00.000Z"
+createdAt: 2026-03-08T00:00:00.000Z
+updatedAt: 2026-03-11T18:27:57.153Z
 ---
 
 #### Milestone Identity
