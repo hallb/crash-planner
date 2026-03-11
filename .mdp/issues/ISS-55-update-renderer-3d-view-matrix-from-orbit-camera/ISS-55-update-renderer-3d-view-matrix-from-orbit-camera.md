@@ -2,7 +2,7 @@
 id: ISS-55
 title: Update renderer 3D view matrix from orbit camera state
 type: task
-status: In Progress
+status: Done
 priority: null
 labels: []
 assignee: null
@@ -20,7 +20,7 @@ log:
     author: M-10-review
     body: "Enriched: added description, technical approach, acceptance criteria, and blockedBy ISS-52 during M-10 issue review."
 createdAt: 2026-03-09T03:28:06.137Z
-updatedAt: 2026-03-11T18:28:57.087Z
+updatedAt: 2026-03-11T18:30:02.975Z
 ---
 
 ## Description
