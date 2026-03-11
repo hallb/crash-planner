@@ -2,7 +2,7 @@
 id: ISS-56
 title: Tests for camera state transitions and 2D mode regression
 type: task
-status: Backlog
+status: In Progress
 priority: null
 labels: []
 assignee: null
@@ -24,7 +24,7 @@ log:
     author: M-10-review
     body: "Enriched: added description, test scope, acceptance criteria, and blockedBy ISS-52/53/54/55 during M-10 issue review."
 createdAt: 2026-03-09T03:28:06.235Z
-updatedAt: 2026-03-11T18:20:57.088Z
+updatedAt: 2026-03-11T18:44:27.128Z
 ---
 
 ## Description
